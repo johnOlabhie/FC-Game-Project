@@ -18,6 +18,7 @@ function displayQuestion() { //generates a random number between 1 and 11
     document.getElementById("question-container").innerText = `${num1} * ${num2} = `;// sets the innerText of the HTML element with the ID "question-container" to display the current multiplication question
 }
 
+
 function checkAnswer() {//This checks if the user's input is a valid number. 
     const userAnswer = parseInt(document.getElementById("answer-input").value);//retrieves the user's input from the HTML input field
 
