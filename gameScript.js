@@ -10,6 +10,7 @@ function startGame() {
     document.getElementById("score").innerText = "Score: 0";
 }
 
+
 function displayQuestion() { //generates a random number between 1 and 11
     const num1 = Math.floor(Math.random() * 15) + 1; 
     const num2 = Math.floor(Math.random() * 15) + 1;
@@ -17,7 +18,6 @@ function displayQuestion() { //generates a random number between 1 and 11
 
     document.getElementById("question-container").innerText = `${num1} * ${num2} = `;// sets the innerText of the HTML element with the ID "question-container" to display the current multiplication question
 }
-
 
 function checkAnswer() {//This checks if the user's input is a valid number. 
     const userAnswer = parseInt(document.getElementById("answer-input").value);//retrieves the user's input from the HTML input field
