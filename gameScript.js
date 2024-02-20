@@ -45,7 +45,6 @@ function checkAnswer() {//This checks if the user's input is a valid number.
     }
 }
 
-
 function endGame() {
     document.getElementById("question-container").innerText = "Game Over!";
     document.getElementById("resultMessageDisplay").innerText = `You scored : ${score} out of 20.`;
