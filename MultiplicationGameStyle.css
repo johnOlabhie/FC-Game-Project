@@ -13,13 +13,13 @@ body {
 /*game content container*/
 .container {
     text-align: center;
-    background-color: #e3dab1;
+    background-color: #eadead;
     font-family:fantasy;
     font-size: large;
     color: #50024c;
     padding: 20px;
     border-radius: 40%;
-    box-shadow: 0 0 20px rgb(175, 19, 199);
+    box-shadow: 0 0 20px rgb(173, 23, 197);
 }
 
 /*buttons*/

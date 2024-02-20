@@ -43,6 +43,7 @@ function checkAnswer() {//This checks if the user's input is a valid number.
     } else {//not valid input number. So displays error message.
         document.getElementById("resultMessageDisplay").innerText = "Please enter a valid number.";
     }
+    
 }
 
 function endGame() {
